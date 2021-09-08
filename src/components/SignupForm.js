@@ -15,7 +15,7 @@ const SignupForm = () => {
   const [agree, setAgree] = useState("");
 
   const [error, setError] = useState("");
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   const history = useHistory();
 
